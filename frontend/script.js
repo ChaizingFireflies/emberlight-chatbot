@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://YOUR-RENDER-BACKEND-URL/chat"; // update after deploy
+const BACKEND_URL = "https://emberlight-backend.onrender.com";
 
 const chatWindow = document.getElementById("chat-window");
 const userInput = document.getElementById("user-input");
