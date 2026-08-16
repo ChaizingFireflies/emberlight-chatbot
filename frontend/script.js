@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://emberlight-backend.onrender.com";
+const BACKEND_URL = "http://localhost:3000/chat";
 
 const chatWindow = document.getElementById("chat-window");
 const userInput = document.getElementById("user-input");
