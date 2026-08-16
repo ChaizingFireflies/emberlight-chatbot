@@ -22,7 +22,8 @@ async function sendMessage() {
   appendMessage("Emberlight is thinking...", "assistant");
 
   try {
-    const response = await fetch(BACKEND_URL, {
+    const response = await fetch(BACKEND_URL + "/chat", {
+
       method: "POST",
       headers: {
         "Content-Type": "application/json"
